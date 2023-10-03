@@ -7,7 +7,7 @@ Clone Repository
 git clone https://github.com/Rafa38gh/laravel-10.git
 ```
 ```sh
-cd app-laravel
+cd laravel-10
 ```
 
 
