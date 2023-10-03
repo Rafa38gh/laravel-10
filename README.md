@@ -3,22 +3,22 @@
 [Assine a Academy, e Seja VIP!](https://academy.especializati.com.br)
 
 ### Passo a passo
-Clone Repositório
+Clone Repository
 ```sh
-git clone -b laravel-10-com-php-8.1 https://github.com/especializati/setup-docker-laravel.git app-laravel
+git clone -b https://github.com/Rafa38gh/laravel-10.git
 ```
 ```sh
 cd app-laravel
 ```
 
 
-Crie o Arquivo .env
+Create .env file
 ```sh
 cp .env.example .env
 ```
 
 
-Atualize as variáveis de ambiente do arquivo .env
+Update environment variables on .env
 ```dosini
 APP_NAME=EspecializaTi
 APP_URL=http://localhost:8989
@@ -40,29 +40,29 @@ REDIS_PORT=6379
 ```
 
 
-Suba os containers do projeto
+Initialize project containers
 ```sh
 docker-compose up -d
 ```
 
 
-Acesse o container app
+Access container app
 ```sh
 docker-compose exec app bash
 ```
 
 
-Instale as dependências do projeto
+Install project dependencies (Composer)
 ```sh
 composer install
 ```
 
 
-Gere a key do projeto Laravel
+Generate Laravel's project key
 ```sh
 php artisan key:generate
 ```
 
 
-Acesse o projeto
+Access the project
 [http://localhost:8989](http://localhost:8989)
