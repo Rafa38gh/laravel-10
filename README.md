@@ -4,7 +4,7 @@
 ### Step-by-step
 Clone Repository
 ```sh
-git clone -b https://github.com/Rafa38gh/laravel-10.git
+git clone https://github.com/Rafa38gh/laravel-10.git
 ```
 ```sh
 cd app-laravel
